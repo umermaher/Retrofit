@@ -1,4 +1,4 @@
-package com.example.workwithretrofit
+package com.example.workwithretrofit.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.workwithretrofit.databinding.ItemTodosBinding
+import com.example.workwithretrofit.models.Todo
 
 class TodoAdapter: RecyclerView.Adapter<TodoAdapter.ViewHolder>() {
 

@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/getFragment"
-        android:name="com.example.workwithretrofit.GetFragment"
+        android:name="com.example.workwithretrofit.ui.GetFragment"
         android:label="fragment_get"
         tools:layout="@layout/fragment_get" />
     <fragment
         android:id="@+id/URLManipulationFragment"
-        android:name="com.example.workwithretrofit.URLManipulationFragment"
+        android:name="com.example.workwithretrofit.ui.URLManipulationFragment"
         android:label="fragment_url_manupilation"
         tools:layout="@layout/fragment_url_manupilation" />
 </navigation>

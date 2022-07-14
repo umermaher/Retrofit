@@ -1,7 +1,8 @@
 package com.example.workwithretrofit
 
 import android.util.Log
-import androidx.core.view.isVisible
+import com.example.workwithretrofit.models.Todo
+import com.example.workwithretrofit.ui.MainActivity
 import retrofit2.HttpException
 import retrofit2.Response
 import java.io.IOException
@@ -21,4 +22,5 @@ class TodoRepository {
             return NIL
         }
     }
+    suspend fun getTodo(todoNumber:Int) = RetrofitInstance.api.getTodo(todoNumber)
 }

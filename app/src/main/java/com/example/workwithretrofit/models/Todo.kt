@@ -1,4 +1,4 @@
-package com.example.workwithretrofit
+package com.example.workwithretrofit.models
 
 data class Todo(
     val completed: Boolean,
